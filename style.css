@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: yellow;
+background-color: black;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+
+#container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+}
+#do {
+  background-image: url("images/Do.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+background-size: 10rem;
+}
+
+#re{
+  background-image: url("images/Re.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#me{
+  background-image: url("images/Me.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#fa{
+  background-image: url("images/Fa.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#so{
+  background-image: url("images/So.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#la{
+  background-image: url("images/La.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#ti{
+  background-image: url("images/Ti.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+#doh{
+  background-image: url("images/Do.png");
+ background-repeat: no-repeat;
+ height: 10rem;
+ width: 10rem;
+ background-size: 10rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
